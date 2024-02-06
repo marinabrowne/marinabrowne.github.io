@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Marina Browne - QA Tester</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 </head>
 <body>
   <header>
     <div class="container">
       <h1>Marina Browne</h1>
-      <p>QA Tester | ISTQB Foundation Level 4.0 <a href="https://www.istqb.org/certification-path-root/foundation-level/foundation-level-2018.html" target="_blank">(Learn more)</a></p>
+      <p class="subtitle">QA Tester | <a href="https://www.istqb.org/certification-path-root/foundation-level/foundation-level-2018.html" target="_blank">ISTQB Foundation Level 4.0</a></p>
     </div>
   </header>
   
@@ -21,9 +22,13 @@
       <p>Check out my project: <a href="https://myfamilytree.azurewebsites.net/" target="_blank">MyFamilyTree</a></p>
       <p>I have undertaken various activities including issue tracking, test planning, manual testing, cross-browser testing, automated testing, regression testing, and ad hoc activities like preparing test data.</p>
       <div class="carousel">
-        <img src="example1.jpg" alt="Example Image 1">
-        <img src="example2.jpg" alt="Example Image 2">
-        <img src="example3.jpg" alt="Example Image 3">
+        <div class="carousel-inner">
+          <img src="example1.jpg" alt="Example Image 1">
+          <img src="example2.jpg" alt="Example Image 2">
+          <img src="example3.jpg" alt="Example Image 3">
+        </div>
+        <button class="carousel-control prev" onclick="prevImage()"><i class="fas fa-chevron-left"></i></button>
+        <button class="carousel-control next" onclick="nextImage()"><i class="fas fa-chevron-right"></i></button>
       </div>
     </div>
   </section>
@@ -37,3 +42,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
