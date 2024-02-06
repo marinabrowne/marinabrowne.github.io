@@ -27,6 +27,11 @@ body {
     font-size: 1.3rem;
   }
   
+  .profile-picture {
+    max-height: 250px;
+    border-radius: 150px;
+  }
+
   section {
     padding: 2px 0;
   }
