@@ -4,116 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Marina Browne - QA Tester</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
-  <style>
-    /* Global Styles */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f2f2f2;
-      color: #333;
-    }
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    h1, h2, h3 {
-      color: #8600FF;
-    }
-    p {
-      line-height: 1.6;
-    }
-    a {
-      color: #8600FF;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    /* Header Styles */
-    header {
-      background-color: #8600FF;
-      padding: 20px 0;
-      text-align: center;
-      color: #fff;
-    }
-    .about-me {
-      padding: 40px 0;
-      text-align: center;
-    }
-    .portfolio {
-      padding: 40px 0;
-      text-align: center;
-    }
-    .portfolio img {
-      width: 100%;
-      max-width: 300px;
-      margin: 20px;
-    }
-    footer {
-      background-color: #8600FF;
-      color: #fff;
-      text-align: center;
-      padding: 20px 0;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 </head>
 <body>
-
   <header>
-    <h1>Marina Browne - QA Tester</h1>
+    <div class="container">
+      <h1>Marina Browne</h1>
+      <p>QA Tester | ISTQB Foundation Level 4.0 <a href="https://www.istqb.org/certification-path-root/foundation-level/foundation-level-2018.html" target="_blank">(Learn more)</a></p>
+    </div>
   </header>
-
-  <div class="container">
-    <section class="about-me">
-      <h2>About Me</h2>
-      <p>
-        My name is Marina Browne, and I am a QA Tester. I hold the ISTQB Foundation Level 4.0 qualification.
-        <a href="https://www.istqb.org/certification-path-root/foundation-level/foundation-level-syllabus.html" target="_blank">Learn more about ISTQB Foundation Level 4.0</a>.
-      </p>
-    </section>
-
-    <section class="portfolio">
+  
+  <section id="portfolio">
+    <div class="container">
       <h2>Portfolio</h2>
+      <p>Check out my project: <a href="https://myfamilytree.azurewebsites.net/" target="_blank">MyFamilyTree</a></p>
+      <p>I have undertaken various activities including issue tracking, test planning, manual testing, cross-browser testing, automated testing, regression testing, and ad hoc activities like preparing test data.</p>
       <div class="carousel">
-        <div><img src="https://via.placeholder.com/300" alt="Project 1"></div>
-        <div><img src="https://via.placeholder.com/300" alt="Project 2"></div>
-        <div><img src="https://via.placeholder.com/300" alt="Project 3"></div>
+        <img src="example1.jpg" alt="Example Image 1">
+        <img src="example2.jpg" alt="Example Image 2">
+        <img src="example3.jpg" alt="Example Image 3">
       </div>
-      <p>
-        I have worked on the project "MyFamilyTree", which involved issue tracking, test planning, manual testing, cross-browser testing, automated testing, regression testing, and preparing test data.
-        <br>
-        Visit the project: <a href="https://myfamilytree.azurewebsites.net/" target="_blank">MyFamilyTree</a>.
-      </p>
-    </section>
-  </div>
+    </div>
+  </section>
 
   <footer>
-    <p>Connect with me on <a href="https://www.linkedin.com/in/marina-browne-a62346268" target="_blank">LinkedIn</a></p>
+    <div class="container">
+      <p>Connect with me on <a href="https://www.linkedin.com/in/marina-browne-a62346268" target="_blank">LinkedIn</a></p>
+    </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('.carousel').slick({
-        autoplay: true,
-        autoplaySpeed: 2000,
-        dots: true,
-        arrows: false,
-        infinite: true,
-        speed: 500,
-        fade: true,
-        cssEase: 'linear'
-      });
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
