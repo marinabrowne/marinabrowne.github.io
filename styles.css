@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #4b0082; /* Purple */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    margin-top: 50px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  section {
+    padding: 50px 0;
+  }
+  
+  h2 {
+    color: #4b0082; /* Purple */
+  }
+  
+  .service {
+    margin-bottom: 30px;
+  }
+  
+  .project, .testimonial {
+    margin-bottom: 30px;
+  }
+  
+  button {
+    background-color: #4b0082; /* Purple */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #800080; /* Darker Purple */
+  }
