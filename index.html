@@ -3,138 +3,117 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marina Browne - Professional QA Tester</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+  <title>Marina Browne - QA Tester</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: #8600FF;
+    }
+    p {
+      line-height: 1.6;
+    }
+    a {
+      color: #8600FF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* Header Styles */
+    header {
+      background-color: #8600FF;
+      padding: 20px 0;
+      text-align: center;
+      color: #fff;
+    }
+    .about-me {
+      padding: 40px 0;
+      text-align: center;
+    }
+    .portfolio {
+      padding: 40px 0;
+      text-align: center;
+    }
+    .portfolio img {
+      width: 100%;
+      max-width: 300px;
+      margin: 20px;
+    }
+    footer {
+      background-color: #8600FF;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">QA Tester</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="hero">
-      <div class="container text-center">
-        <h1 class="display-4">Quality Assurance Excellence</h1>
-        <p class="lead">Delivering reliable and innovative testing solutions</p>
-      </div>
-    </div>
-  </header>
-  
-  <section id="about" class="bg-light">
-    <div class="container">
-      <h2 class="text-center mb-4">About Me</h2>
-      <div class="row">
-        <div class="col-md-6 mx-auto">
-          <p>A professional QA tester with expertise in automated and manual testing. Committed to ensuring the quality and reliability of software products.</p>
-          <p>Skills:</p>
-          <ul>
-            <li>Automated Testing</li>
-            <li>Manual Testing</li>
-            <li>Regression Testing</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section id="services">
-    <div class="container">
-      <h2 class="text-center mb-4">Services</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="service text-center">
-            <h3>Functional Testing</h3>
-            <p>Thorough testing of software functionalities to ensure they meet requirements.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service text-center">
-            <h3>Performance Testing</h3>
-            <p>Evaluating software performance under various conditions to optimize speed and efficiency.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service text-center">
-            <h3>Security Testing</h3>
-            <p>Identifying and mitigating security vulnerabilities in software applications.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section id="portfolio" class="bg-light">
-    <div class="container">
-      <h2 class="text-center mb-4">Portfolio</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="project text-center">
-            <h3>Project Name</h3>
-            <p>Description of the project and technologies tested.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="project text-center">
-            <h3>Project Name</h3>
-            <p>Description of the project and technologies tested.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="project text-center">
-            <h3>Project Name</h3>
-            <p>Description of the project and technologies tested.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section id="contact" class="bg-light">
-    <div class="container">
-      <h2 class="text-center mb-4">Contact</h2>
-      <div class="row">
-        <div class="col-md-6 mx-auto">
-          <form id="contactForm">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name" name="name" required>
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" placeholder="Your Email" name="email" required>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" placeholder="Your Message" name="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="script.js"></script>
+  <header>
+    <h1>Marina Browne - QA Tester</h1>
+  </header>
+
+  <div class="container">
+    <section class="about-me">
+      <h2>About Me</h2>
+      <p>
+        My name is Marina Browne, and I am a QA Tester. I hold the ISTQB Foundation Level 4.0 qualification.
+        <a href="https://www.istqb.org/certification-path-root/foundation-level/foundation-level-syllabus.html" target="_blank">Learn more about ISTQB Foundation Level 4.0</a>.
+      </p>
+    </section>
+
+    <section class="portfolio">
+      <h2>Portfolio</h2>
+      <div class="carousel">
+        <div><img src="https://via.placeholder.com/300" alt="Project 1"></div>
+        <div><img src="https://via.placeholder.com/300" alt="Project 2"></div>
+        <div><img src="https://via.placeholder.com/300" alt="Project 3"></div>
+      </div>
+      <p>
+        I have worked on the project "MyFamilyTree", which involved issue tracking, test planning, manual testing, cross-browser testing, automated testing, regression testing, and preparing test data.
+        <br>
+        Visit the project: <a href="https://myfamilytree.azurewebsites.net/" target="_blank">MyFamilyTree</a>.
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    <p>Connect with me on <a href="https://www.linkedin.com/in/marina-browne-a62346268" target="_blank">LinkedIn</a></p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+      });
+    });
+  </script>
 </body>
 </html>
